@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    padding:0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 40px 60px;
+}
+
+#nav-part1{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+
+#nav-part2{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+
+#nav h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#nav h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#nav h4{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#content{
+    padding: 40px 65px;
+    margin-top: 60px;
+}
+
+#content h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#content h1{
+    margin-left: 10px;
+    margin-top: 35px;
+    font-size: 170px;
+    line-height: 170px;
+    font-weight: 400;
+    letter-spacing: -10px;
+    word-spacing: 20px;
+}
+
+#case{
+    padding: 40px 60px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#case h4{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+#case h5{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+#right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#line{
+    height: 2px;
+    width: 160px;
+    background: #000;
+}
+
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 65px;
+    gap: 40px;
+}
+
+.elem{
+    width: 50%;
+}
+
+.elem-img{
+    height: 720px;
+    width: 100%;
+    background:#ecf5fa;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+}
+
+#img1{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/59/Sketch_Logo.svg);
+}
+
+#img2{
+    background-image: url(https://s3-alpha.figma.com/hub/file/2213838647/6eb4166a-3a5d-42af-b8ed-d6ed858a37f1-cover.png);
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.bottom i{
+    padding: 17px 30px;
+    font-size: 22px;
+    border: 2px solid #000;
+    border-radius: 50px;
+    font-weight: 800;
+}
+
+.bottom i:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.bottom h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 10px ;
+}
+
+.bottom h4{
+    font-size: 22px;
+    color: #747474;
+    font-weight: 500;
+}
+
+/* Level1 project3 completed 🥳*/
